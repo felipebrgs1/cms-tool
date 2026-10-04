@@ -1,0 +1,10 @@
+{
+  "name": "cms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @cms/editor dev",
+    "build": "pnpm --filter @cms/editor build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
